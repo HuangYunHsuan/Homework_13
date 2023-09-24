@@ -11,9 +11,11 @@ abstract class Pen {
 			brand = brandx;
 			if(pricex > 0) 
 				price = pricex;
-			else 
+			else
+				
 				System.out.println("!!!請確認售價設定!!!");
 			
+		
 		}
 		public void getData(String brand, double price) {
                this.brand=brand;
@@ -25,7 +27,7 @@ abstract class Pen {
  class Pencil extends Pen{
 	 public void write() {
 		 System.out.println("品牌為="+ brand);
-		 System.out.println("價格為="+ price*0.8);
+		 System.out.println("建議售價為="+ price*0.8);
 		 System.out.println("削鉛筆再寫");
 	 }
  }
@@ -33,7 +35,7 @@ abstract class Pen {
  class InkBrush extends Pen{
 	 public void write() {
 		 System.out.println("品牌為="+ brand);
-		 System.out.println("價格為="+ price*0.9);
+		 System.out.println("建議售價為="+ price*0.9);
 		 System.out.println("沾墨汁再寫");
 	 }
  }

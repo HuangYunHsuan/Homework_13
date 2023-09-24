@@ -31,6 +31,8 @@ public class Homework3 {
 		}else {
 			System.out.println("其他三角形");
 		}
+		
+		sc.close();
 
 //     • 請設計一隻程式,會亂數產生一個0~9的數字,然後可以玩猜數字遊戲,猜錯會顯示錯誤訊息,猜
 //      對則顯示正確訊息
@@ -52,6 +54,8 @@ public class Homework3 {
 			if (i == j)
 				System.out.println("猜對了!");
 		}
+		
+		RandomNumber.close();
 //		• 阿文很喜歡簽大樂透(1~49),但他是個善變的人,上次討厭數字是4,但這次他想要依心情決定討
 //		厭哪個數字,請您設計一隻程式,讓阿文可以輸入他不想要的數字(1~9),畫面會顯示他可以選擇
 //		的號碼與總數
@@ -73,5 +77,9 @@ public class Homework3 {
 			}
 		}
 		System.out.println("總共有" + (g) + "個數字可選");
+	
+		LottoNumber.close();
 	}
+	
 }
+
