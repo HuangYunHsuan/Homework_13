@@ -1,11 +1,12 @@
 package Homework6;
 
-public class CalException extends Exception{
-	
+public class CalException extends Exception {
+
 	public CalException() {
-		
+
 	}
-    public CalException(String msg) {
+
+	public CalException(String msg) {
 		super(msg);
 	}
 }
